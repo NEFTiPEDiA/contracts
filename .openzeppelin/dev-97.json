@@ -1,0 +1,401 @@
+{
+  "contracts": {
+    "NEFTiPEDiA": {
+      "address": "0xc2D2b42102495041B16e27157cfC848F6D9c386d",
+      "constructorCode": "608060405234801561001057600080fd5b50614157806100206000396000f3fe",
+      "bodyBytecodeHash": "6d89a00c72572c74a415c49aa9ea439cd7693b6ac7cfc8308d918d517bef1bdb",
+      "localBytecodeHash": "743e459aaaaf720382652114e7bf0571c2ce064b7ff457dcddbe6a1f329aa689",
+      "deployedBytecodeHash": "743e459aaaaf720382652114e7bf0571c2ce064b7ff457dcddbe6a1f329aa689",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_mapping<t_bool>": {
+          "id": "t_mapping<t_bool>",
+          "valueType": "t_bool",
+          "label": "mapping(key => bool)",
+          "kind": "mapping"
+        },
+        "t_array:49<t_uint256>": {
+          "id": "t_array:49<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "49",
+          "kind": "array",
+          "label": "uint256[49]"
+        },
+        "t_string": {
+          "id": "t_string",
+          "kind": "elementary",
+          "label": "string"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        },
+        "t_array:dyn<t_address>": {
+          "id": "t_array:dyn<t_address>",
+          "valueType": "t_address",
+          "length": "dyn",
+          "kind": "array",
+          "label": "address[]"
+        },
+        "t_uint8": {
+          "id": "t_uint8",
+          "kind": "elementary",
+          "label": "uint8"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "project:/contracts/Initializable.sol",
+          "label": "_initialized",
+          "astId": 3505,
+          "type": "t_bool",
+          "src": "1230:25:17"
+        },
+        {
+          "contract": "Initializable",
+          "path": "project:/contracts/Initializable.sol",
+          "label": "_initializing",
+          "astId": 3508,
+          "type": "t_bool",
+          "src": "1358:26:17"
+        },
+        {
+          "contract": "ContextUpgradeable",
+          "path": "project:/contracts/ContextUpgradeable.sol",
+          "label": "__gap",
+          "astId": 1160,
+          "type": "t_array:50<t_uint256>",
+          "src": "1365:25:4"
+        },
+        {
+          "contract": "OwnableUpgradeable",
+          "path": "project:/contracts/OwnableUpgradeable.sol",
+          "label": "_owner",
+          "astId": 6567,
+          "type": "t_address",
+          "src": "263:22:20"
+        },
+        {
+          "contract": "OwnableUpgradeable",
+          "path": "project:/contracts/OwnableUpgradeable.sol",
+          "label": "authorizations",
+          "astId": 6571,
+          "type": "t_mapping<t_bool>",
+          "src": "291:48:20"
+        },
+        {
+          "contract": "OwnableUpgradeable",
+          "path": "project:/contracts/OwnableUpgradeable.sol",
+          "label": "__gap",
+          "astId": 6751,
+          "type": "t_array:49<t_uint256>",
+          "src": "2534:25:20"
+        },
+        {
+          "contract": "ReentrancyGuardUpgradeable",
+          "path": "project:/contracts/ReentrancyGuardUpgradeable.sol",
+          "label": "_status",
+          "astId": 6818,
+          "type": "t_uint256",
+          "src": "1849:23:22"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "VERSION",
+          "astId": 3591,
+          "type": "t_string",
+          "src": "2078:21:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_rOwned",
+          "astId": 3595,
+          "type": "t_mapping<t_uint256>",
+          "src": "2104:43:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_tOwned",
+          "astId": 3599,
+          "type": "t_mapping<t_uint256>",
+          "src": "2151:43:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_allowances",
+          "astId": 3605,
+          "type": "t_mapping<t_uint256>",
+          "src": "2198:67:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_isSuspended",
+          "astId": 3609,
+          "type": "t_mapping<t_uint256>",
+          "src": "2270:48:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_isExcludedFromFee",
+          "astId": 3613,
+          "type": "t_mapping<t_bool>",
+          "src": "2322:51:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_isExcludedFromMaxTx",
+          "astId": 3617,
+          "type": "t_mapping<t_bool>",
+          "src": "2377:53:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_isExcluded",
+          "astId": 3621,
+          "type": "t_mapping<t_bool>",
+          "src": "2434:44:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_excluded",
+          "astId": 3624,
+          "type": "t_array:dyn<t_address>",
+          "src": "2482:27:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_name",
+          "astId": 3626,
+          "type": "t_string",
+          "src": "2514:20:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_symbol",
+          "astId": 3628,
+          "type": "t_string",
+          "src": "2538:22:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_decimals",
+          "astId": 3630,
+          "type": "t_uint8",
+          "src": "2564:23:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_tTotal",
+          "astId": 3632,
+          "type": "t_uint256",
+          "src": "2591:23:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_rTotal",
+          "astId": 3634,
+          "type": "t_uint256",
+          "src": "2656:23:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_tFeeTotal",
+          "astId": 3636,
+          "type": "t_uint256",
+          "src": "2726:26:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_taxFee",
+          "astId": 3638,
+          "type": "t_uint256",
+          "src": "2789:22:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_previousTaxFee",
+          "astId": 3640,
+          "type": "t_uint256",
+          "src": "2866:31:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_liquidityFee",
+          "astId": 3642,
+          "type": "t_uint256",
+          "src": "2953:28:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_previousLiquidityFee",
+          "astId": 3644,
+          "type": "t_uint256",
+          "src": "3028:37:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_marketingFee",
+          "astId": 3646,
+          "type": "t_uint256",
+          "src": "3113:28:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_previousMarketingFee",
+          "astId": 3648,
+          "type": "t_uint256",
+          "src": "3190:37:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "pancakeRouter",
+          "astId": 3651,
+          "type": "t_address",
+          "src": "3277:37:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "pancakePair",
+          "astId": 3653,
+          "type": "t_address",
+          "src": "3345:26:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_supportAddress",
+          "astId": 3655,
+          "type": "t_address",
+          "src": "3411:30:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_marketingAddress",
+          "astId": 3657,
+          "type": "t_address",
+          "src": "3479:32:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "inSwapAndLiquify",
+          "astId": 3659,
+          "type": "t_bool",
+          "src": "3550:30:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "swapAndLiquifyEnabled",
+          "astId": 3661,
+          "type": "t_bool",
+          "src": "3584:33:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "_maxTxAmount",
+          "astId": 3663,
+          "type": "t_uint256",
+          "src": "3674:27:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "numTokensSellToAddToLiquidity",
+          "astId": 3665,
+          "type": "t_uint256",
+          "src": "3788:45:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "antiBot",
+          "astId": 3668,
+          "type": "t_address",
+          "src": "3878:27:18"
+        },
+        {
+          "contract": "NEFTiPEDiA",
+          "path": "project:/contracts/NEFTiPEDiA.sol",
+          "label": "enableAntiBot",
+          "astId": 3670,
+          "type": "t_bool",
+          "src": "3948:25:18"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "sc-neftipedia/NEFTiPEDiA": [
+      {
+        "address": "0xEEEFA87e9A6F38485449F42aD386cB598dd64676",
+        "version": "1.0.23",
+        "implementation": "0xc2D2b42102495041B16e27157cfC848F6D9c386d",
+        "admin": "0x3c7B9D6A5F584b0Dfa60e1130998464256Aac551",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.23",
+  "proxyAdmin": {
+    "address": "0x3c7B9D6A5F584b0Dfa60e1130998464256Aac551"
+  }
+}
