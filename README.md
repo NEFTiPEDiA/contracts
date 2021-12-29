@@ -1,4 +1,6 @@
-# Solidity codebase
+# NEFTiPEDiA
+
+For deployed contract, refer [CONTRACT.md](CONTRACT.md)
 
 ## Installation
 
