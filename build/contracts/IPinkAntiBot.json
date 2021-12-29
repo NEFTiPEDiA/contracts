@@ -47,7 +47,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\n// Dependency file: contracts/interfaces/IPinkAntiBot.sol\n\n// pragma solidity >=0.5.0;\npragma solidity >=0.8.9;\n\ninterface IPinkAntiBot {\n    function setTokenOwner(address owner) external;\n    function onPreTransferCheck(address from, address to, uint256 amount) external;\n}\n",
-  "sourcePath": "/Users/ifundeasy/Developer/neftipedia/provider-neftipedia-v2/contracts/IPinkAntiBot.sol",
+  "sourcePath": "/Users/ifundeasy/Developer/neftipedia/sc-neftipedia/contracts/IPinkAntiBot.sol",
   "ast": {
     "absolutePath": "project:/contracts/IPinkAntiBot.sol",
     "exportedSymbols": {
@@ -478,7 +478,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-15T18:46:18.160Z",
+  "updatedAt": "2021-12-27T19:04:58.278Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

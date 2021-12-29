@@ -10,7 +10,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// solhint-disable no-empty-blocks\n\n// SPDX-License-Identifier: MIT\n// Dependency file: @openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol\n\npragma solidity >=0.8.9;\n\n// import \"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\";\nimport \"./Initializable.sol\";\n\n/**\n * @dev Provides information about the current execution context, including the\n * sender of the transaction and its data. While these are generally available\n * via msg.sender and msg.data, they should not be accessed in such a direct\n * manner, since when dealing with meta-transactions the account sending and\n * paying for execution may not be the actual sender (as far as an application\n * is concerned).\n *\n * This contract is only required for intermediate, library-like contracts.\n */\nabstract contract ContextUpgradeable is Initializable {\n    // solhint-disable-next-line func-name-mixedcase\n    function __Context_init()\n        internal initializer\n    {\n        __Context_init_unchained();\n    }\n\n    // solhint-disable-next-line func-name-mixedcase\n    function __Context_init_unchained()\n        internal initializer\n    { }\n    function _msgSender()\n        internal view virtual\n        returns (address)\n    { return msg.sender; }\n\n    function _msgData()\n        internal view virtual\n        returns (bytes calldata)\n    { return msg.data; }\n    \n    uint256[50] private __gap;\n}\n",
-  "sourcePath": "/Users/ifundeasy/Developer/neftipedia/provider-neftipedia-v2/contracts/ContextUpgradeable.sol",
+  "sourcePath": "/Users/ifundeasy/Developer/neftipedia/sc-neftipedia/contracts/ContextUpgradeable.sol",
   "ast": {
     "absolutePath": "project:/contracts/ContextUpgradeable.sol",
     "exportedSymbols": {
@@ -911,7 +911,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-15T18:46:18.091Z",
+  "updatedAt": "2021-12-27T19:04:58.217Z",
   "devdoc": {
     "details": "Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts.",
     "kind": "dev",

@@ -1,11 +1,11 @@
 {
   "contracts": {
     "NEFTiPEDiA": {
-      "address": "0xc2D2b42102495041B16e27157cfC848F6D9c386d",
+      "address": "0x5296A28951D1BF8dCa75427413b1F1aE0F861a5f",
       "constructorCode": "608060405234801561001057600080fd5b50614157806100206000396000f3fe",
-      "bodyBytecodeHash": "6d89a00c72572c74a415c49aa9ea439cd7693b6ac7cfc8308d918d517bef1bdb",
-      "localBytecodeHash": "743e459aaaaf720382652114e7bf0571c2ce064b7ff457dcddbe6a1f329aa689",
-      "deployedBytecodeHash": "743e459aaaaf720382652114e7bf0571c2ce064b7ff457dcddbe6a1f329aa689",
+      "bodyBytecodeHash": "392883b6be700ddc035d63fade3c82c8267bbf40a34d4580439e1bf0ba10d732",
+      "localBytecodeHash": "37464c55c49c349b035a57c4d1caf752e1b43fc5a04e647a529d2d51faf571d8",
+      "deployedBytecodeHash": "37464c55c49c349b035a57c4d1caf752e1b43fc5a04e647a529d2d51faf571d8",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -377,7 +377,9 @@
         "hasSelfDestruct": false,
         "hasDelegateCall": false,
         "hasInitialValuesInDeclarations": false,
-        "uninitializedBaseContracts": []
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
       }
     }
   },
@@ -387,7 +389,7 @@
       {
         "address": "0xEEEFA87e9A6F38485449F42aD386cB598dd64676",
         "version": "1.0.23",
-        "implementation": "0xc2D2b42102495041B16e27157cfC848F6D9c386d",
+        "implementation": "0x5296A28951D1BF8dCa75427413b1F1aE0F861a5f",
         "admin": "0x3c7B9D6A5F584b0Dfa60e1130998464256Aac551",
         "kind": "Upgradeable"
       }

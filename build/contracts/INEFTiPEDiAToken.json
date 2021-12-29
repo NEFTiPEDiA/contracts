@@ -74,7 +74,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.8.9;\n\ninterface INEFTiPEDiAToken {\n  function initialize(\n    address owner_,\n    string memory name_,\n    string memory symbol_,\n    uint256 totalSupply_,\n    address router_,\n    uint16 maxTxBps_,\n    uint16 taxFeeBps_,\n    uint16 liquidityFeeBps_,\n    uint16 charityFeeBps_,\n    address charityAddress_,\n    address pinkAntiBot_\n  ) external;\n}",
-  "sourcePath": "/Users/ifundeasy/Developer/neftipedia/provider-neftipedia-v2/contracts/INEFTiPEDiAToken.sol",
+  "sourcePath": "/Users/ifundeasy/Developer/neftipedia/sc-neftipedia/contracts/INEFTiPEDiAToken.sol",
   "ast": {
     "absolutePath": "project:/contracts/INEFTiPEDiAToken.sol",
     "exportedSymbols": {
@@ -829,7 +829,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-15T18:46:18.159Z",
+  "updatedAt": "2021-12-27T19:04:58.277Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
